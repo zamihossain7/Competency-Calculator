@@ -1,0 +1,252 @@
+body{
+    background: linear-gradient(hsl(221, 100%, 40%),#ff00ff);
+    margin: 0; 
+}
+
+
+.title{
+    text-align: center;
+    border: 9px solid black;
+    font-family:  'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+background: linear-gradient(#64f148,#daf107);
+padding: 10px;
+font-size: 20px;
+}
+.Numbers{
+    margin: 4px;
+    padding: 20px;
+    text-align: center;
+}
+#CBTN{
+    border: 3px solid rgb(31, 24, 109);
+    padding: 20px ;
+    border-radius: 10px;
+    padding-right: 30px;
+   background-color: aliceblue;
+}
+#TTN{
+    border: 3px solid rgb(39, 7, 114);
+    padding: 20px;
+    border-radius: 10px;
+    padding-right: 30px; 
+    background-color: aliceblue;
+}
+#TRN{
+    border: 3px solid rgb(39, 7, 114);
+    padding: 20px;
+    border-radius: 10px;
+    padding-right: 30px;
+    background-color: aliceblue;
+}
+.button{
+
+    justify-content: center;
+    text-align: center;
+    font-size: 80px;
+    margin: 50px;
+    
+}
+#RESET{
+    border: 10px solid plum;
+    background-color: plum;
+    border-radius: 40px;
+    color: black;
+    padding: 5px 11px;
+    font-size: 20px;
+    margin-right: 10px;    
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#RESULT{
+    border: 10px solid lime;
+    background-color: lime;
+    border-radius: 40px;
+    color: black;
+    padding: 5px 11px;
+    font-size: 20px;
+    margin-right: 10px;    
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#Total {
+    font-family:  'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #e9eaf7;
+    font-size: 40px;
+}
+
+#box1,#box2,#box3,#box4,#box5,#box6,#box7,#box10,#box31,#box32,#box41,#box42,#box43,#box51,#box52,#box53,#box54,#box61,#box62,#box63,#box64,#box65,#box71,#box72,#box73,#box74,#box75,#box76{
+    border: 5px solid rgb(0, 0, 0);
+    width: 25px;
+    height : 25px;
+    background-color: wheat;
+
+    
+}
+#box1,#box2,#box3,#box4,#box5,#box6,#box7{
+    width: 50px;
+    height: 50px;
+}
+    
+
+table {
+    border-collapse: collapse;
+    border: 4px solid rgb(0, 0, 0);
+    width: 40%;
+    height: 40%;
+}
+
+td {
+    width: 50px;
+    height: 2px;
+    border: 1px solid rgb(65, 57, 57);
+    text-align: center;
+    background-color:  rgb(51, 41, 41);
+}
+.row{
+    display: flex;
+    
+}#names{
+    margin: 8px;
+    color: white;
+    text-align: left;
+font-size: 15px;
+position: relative;
+bottom: 5px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+#Up{
+    position: relative;
+    top: -3px
+}
+#Ac{
+    position: relative;
+    top: -35px;
+}#Ad{
+    position: relative;
+    top: -70px;
+}#At{
+    position: relative;
+    top: -105px;
+}#Ex{
+    position: relative;
+    top: -144px;
+}
+#Dv{
+position: relative;
+top: -180px;
+}#El{
+    position: relative;
+    top: -215px
+}
+#boox{
+    margin-left: 340px;
+    margin-top: 20px;
+    position: relative;
+    top: -20px;
+
+}
+#about{
+    color: rgb(0, 0, 0);
+    justify-content: center;
+    margin-left: 280px;
+    background: linear-gradient(#fab802,#00ff15);
+    position: relative;
+    top: -180px;
+    border-radius: 30px;
+margin-right: 280px;
+
+}
+a {
+    display: inline-block; /* make the links behave like block elements */
+    margin: 0 6.5px; /* set the top and bottom margin to 0, and the left and right margin to 10px */
+  }
+  #help{
+    color: aliceblue;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+position: relative;
+top: -20px;
+  }
+  #help:hover{
+    color: red;
+}
+@media only screen and (max-width: 600px){
+    body{
+background: linear-gradient(#0051ff,#e019e0);
+    }
+    #image{
+        display: flex;
+        position: relative;
+        right: 1px;
+    }
+    #about{
+        right: 15%;
+                
+    }
+    #box10,#box31,#box32,#box41,#box42,#box43,#box51,#box52,#box53,#box54,#box61,#box62,#box63,#box64,#box65,#box71,#box72,#box73,#box74,#box75,#box76{
+        border: 5px solid rgb(0, 0, 0);
+        width: 1200px;
+        background-color: rgb(250, 223, 172); 
+        height: 0;
+        position: relative;
+        
+    }
+    #box1,#box2,#box3,#box4,#box5,#box6,#box7{
+        border: 5px solid rgb(0, 0, 0);
+        width: 1200px;
+        height: 25px;
+        
+    }
+    #boox {
+        text-align : center ;
+        margin-left : 1px ;
+        margin-top : 20px ;
+        align-items : center ;
+        justify-content : center ;
+      }
+      table {
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto;
+        display: inline-block;
+        
+      }
+   #names{
+        margin: 10.2px;
+        position: relative;
+        left: 10px;
+        top: -20px;
+        
+        font-size: 9px;
+    }
+    .title{
+        font-size: 10px;
+    }
+    #about{
+       
+        position: relative;
+        top: -280px;
+        width: 80%;
+        
+        padding: 10px 5px;
+        font-size: 14px;
+        margin: 0;
+        padding: 0%;
+       right: -30px;
+       margin-top: 70px;
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    #help:hover{
+        color: red;
+    }
+    #Up{
+        top: 8px;
+    }#Ac{
+        top: -30px;
+    }#Ad{
+        top: -68px;
+    }#El{
+        top: -220px;
+    }
+    
+    
+}
